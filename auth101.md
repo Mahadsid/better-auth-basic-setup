@@ -18,7 +18,7 @@
 - `pnpm i -D prisma`
 - `pnpm dlx prisma init`
 - Create auth.ts & copy paste its content (see prismaORM scroll: https://www.better-auth.com/docs/installation) except prisma import (NOTE: PLZ PASS ADAPTER IN AUTH.TS FILE THATS WHY IT IS WORKING!)
-- Connect DB in env
+- Connect your DB in env
 - https://www.prisma.io/docs/orm/more/help-and-troubleshooting/nextjs-help & create that file
 - ignore file error for now & delete import statement bcz we import it other way
 - import the prisma in auth.ts file from the above created file
@@ -32,3 +32,4 @@
 - run `pnpm dlx prisma generate`
 - After it success go to prisma.ts hover over prismaClient and import from './generated/prisma'
 - again run `npx @better-auth/cli generate`
+
