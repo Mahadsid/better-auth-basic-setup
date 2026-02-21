@@ -1,6 +1,6 @@
 This project is bootstrapped with [`nextjs`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Getting Started
 
 First, run the development server:
 
